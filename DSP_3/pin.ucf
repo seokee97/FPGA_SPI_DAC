@@ -1,0 +1,19 @@
+# Clock Signal (FPGA 내부 시스템 클럭)
+NET "clk" LOC = "D9" | IOSTANDARD = LVCMOS33;
+
+# Reset Signal (리셋 신호)
+NET "rst" LOC = "E6" | IOSTANDARD = LVCMOS33;
+
+# Serial Input from PIC
+#NET "serial_in" LOC = "D5" | IOSTANDARD = LVCMOS33; # PIC에서 시리얼 신호를 받아오는 핀 (PYY는 FPGA에서 해당 핀 번호)
+
+# SPI Clock to MCP4921 (DAC)
+NET "sck" LOC = "E7" | IOSTANDARD = LVCMOS33; # SPI 클럭 신호 출력 핀 (PZZ는 FPGA의 핀 번호)
+
+# SPI MOSI to MCP4921 (DAC)
+NET "mosi" LOC = "D6" | IOSTANDARD = LVCMOS33; # SPI 데이터 출력 핀 (MOSI) (PAA는 FPGA의 핀 번호)
+
+# SPI Chip Select to MCP4921 (DAC)
+NET "cs_n" LOC = "D7" | IOSTANDARD = LVCMOS33; # SPI 칩 선택 신호 (PBB는 FPGA의 핀 번호)
+
+

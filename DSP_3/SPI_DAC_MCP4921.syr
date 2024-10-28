@@ -1,0 +1,449 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: SPI_DAC_MCP4921.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SPI_DAC_MCP4921.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SPI_DAC_MCP4921"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : SPI_DAC_MCP4921
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "main.v" in library work
+Module <SPI_DAC_MCP4921> compiled
+No errors in compilation
+Analysis of file <"SPI_DAC_MCP4921.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <SPI_DAC_MCP4921> in library <work> with parameters.
+	IDLE = "00"
+	SEND = "00"
+	WAIT = "00"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <SPI_DAC_MCP4921>.
+	IDLE = 2'b00
+	SEND = 2'b00
+	WAIT = 2'b00
+INFO:Xst:1433 - Contents of array <spi_data> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <SPI_DAC_MCP4921> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SPI_DAC_MCP4921>.
+    Related source file is "main.v".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Clock enable       | sck_enable                (positive)           |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Using one-hot encoding for signal <reverse>.
+    Found 1-bit register for signal <cs_n>.
+    Found 1-bit register for signal <mosi>.
+    Found 1-bit register for signal <sck>.
+    Found 1-bit 16-to-1 multiplexer for signal <$varindex0000> created at line 69.
+    Found 5-bit register for signal <bit_count>.
+    Found 5-bit subtractor for signal <bit_count$addsub0000> created at line 76.
+    Found 8-bit up counter for signal <clk_div>.
+    Found 12-bit updown counter for signal <dac_data>.
+    Found 2-bit register for signal <reverse>.
+    Found 1-bit register for signal <sck_enable>.
+    Found 16-bit register for signal <spi_data>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Multiplexer(s).
+Unit <SPI_DAC_MCP4921> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Counters                                             : 2
+ 12-bit updown counter                                 : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 7
+ 1-bit register                                        : 4
+ 16-bit register                                       : 1
+ 2-bit register                                        : 1
+ 5-bit register                                        : 1
+# Multiplexers                                         : 1
+ 1-bit 16-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+WARNING:Xst:1710 - FF/Latch <spi_data_12> (without init value) has a constant value of 1 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <spi_data_13> (without init value) has a constant value of 0 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <spi_data_14> (without init value) has a constant value of 1 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <spi_data_15> (without init value) has a constant value of 0 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <spi_data<15:15>> (without init value) have a constant value of 0 in block <SPI_DAC_MCP4921>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 5-bit subtractor                                      : 1
+# Counters                                             : 2
+ 12-bit updown counter                                 : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Multiplexers                                         : 1
+ 1-bit 16-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <spi_data_12> (without init value) has a constant value of 1 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <spi_data_13> (without init value) has a constant value of 0 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <spi_data_14> (without init value) has a constant value of 1 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <reverse_1> of sequential type is unconnected in block <SPI_DAC_MCP4921>.
+
+Optimizing unit <SPI_DAC_MCP4921> ...
+WARNING:Xst:1710 - FF/Latch <bit_count_4> (without init value) has a constant value of 0 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bit_count_4> (without init value) has a constant value of 0 in block <SPI_DAC_MCP4921>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SPI_DAC_MCP4921, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 44
+ Flip-Flops                                            : 44
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SPI_DAC_MCP4921.ngr
+Top Level Output File Name         : SPI_DAC_MCP4921
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 113
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 7
+#      LUT2                        : 15
+#      LUT2_L                      : 2
+#      LUT3                        : 20
+#      LUT3_L                      : 2
+#      LUT4                        : 13
+#      LUT4_D                      : 3
+#      LUT4_L                      : 5
+#      MUXCY                       : 18
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 44
+#      FDC                         : 8
+#      FDCE                        : 15
+#      FDE                         : 13
+#      FDPE                        : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 1
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                       40  out of   1920     2%  
+ Number of Slice Flip Flops:             44  out of   3840     1%  
+ Number of 4 input LUTs:                 70  out of   3840     1%  
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    173     2%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 44    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 31    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.834ns (Maximum Frequency: 171.409MHz)
+   Minimum input arrival time before clock: 5.019ns
+   Maximum output required time after clock: 7.488ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.834ns (frequency: 171.409MHz)
+  Total number of paths / destination ports: 541 / 79
+-------------------------------------------------------------------------
+Delay:               5.834ns (Levels of Logic = 9)
+  Source:            clk_div_1 (FF)
+  Destination:       clk_div_7 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clk_div_1 to clk_div_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.720   1.216  clk_div_1 (clk_div_1)
+     LUT1:I0->O            1   0.551   0.000  Mcount_clk_div_cy<1>_rt (Mcount_clk_div_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  Mcount_clk_div_cy<1> (Mcount_clk_div_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_clk_div_cy<2> (Mcount_clk_div_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_clk_div_cy<3> (Mcount_clk_div_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_clk_div_cy<4> (Mcount_clk_div_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_clk_div_cy<5> (Mcount_clk_div_cy<5>)
+     MUXCY:CI->O           0   0.064   0.000  Mcount_clk_div_cy<6> (Mcount_clk_div_cy<6>)
+     XORCY:CI->O           1   0.904   0.869  Mcount_clk_div_xor<7> (Result<7>)
+     LUT3:I2->O            1   0.551   0.000  Mcount_clk_div_eqn_71 (Mcount_clk_div_eqn_7)
+     FDC:D                     0.203          clk_div_7
+    ----------------------------------------
+    Total                      5.834ns (3.749ns logic, 2.085ns route)
+                                       (64.3% logic, 35.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              5.019ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       spi_data_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to spi_data_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   0.821   1.927  rst_IBUF (rst_IBUF)
+     LUT3:I2->O           12   0.551   1.118  spi_data_and00001 (spi_data_and0000)
+     FDE:CE                    0.602          spi_data_0
+    ----------------------------------------
+    Total                      5.019ns (1.974ns logic, 3.045ns route)
+                                       (39.3% logic, 60.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              7.488ns (Levels of Logic = 1)
+  Source:            sck (FF)
+  Destination:       sck (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sck to sck
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.720   1.124  sck (sck_OBUF)
+     OBUF:I->O                 5.644          sck_OBUF (sck)
+    ----------------------------------------
+    Total                      7.488ns (6.364ns logic, 1.124ns route)
+                                       (85.0% logic, 15.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.48 secs
+ 
+--> 
+
+Total memory usage is 4513956 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

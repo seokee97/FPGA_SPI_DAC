@@ -1,0 +1,428 @@
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
+xst -intstyle ise -ifn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.xst" -ofn "C:/Users/BME1/Desktop/m/DSP_3/SPI_DAC_MCP4921.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc3s200-ft256-4 SPI_DAC_MCP4921.ngc SPI_DAC_MCP4921.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ngd SPI_DAC_MCP4921.pcf 
+par -w -intstyle ise -ol high -t 1 SPI_DAC_MCP4921_map.ncd SPI_DAC_MCP4921.ncd SPI_DAC_MCP4921.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SPI_DAC_MCP4921.twx SPI_DAC_MCP4921.ncd -o SPI_DAC_MCP4921.twr SPI_DAC_MCP4921.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f SPI_DAC_MCP4921.ut SPI_DAC_MCP4921.ncd 
